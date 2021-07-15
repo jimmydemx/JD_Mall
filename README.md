@@ -1,5 +1,12 @@
 # hybrid_mall
 
+[JD](www.jd.com) is a Top e-commercial website in China(like amazon), this project aims to  create an APP of JD,  realizing the full functionality of the front end part. of JD.
+the APP will be created by using Hybrid codes(webview UI(JsBridge) +Vue.js)
+![](https://www.america-retail.com/static/2020/11/image-303-1.png)
+
+
+For a detailed description of the Logic of the design please refer to [download](http://storage.live.com/items/AEAB165A07B2199B!6091:/Hybrid_Project_JD.pdf?authkey=AObJPJqOP6HGXy0)
+
 ## Project setup
 ```
 npm install
