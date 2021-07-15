@@ -1,0 +1,30 @@
+.home{
+    font-size:  px2rem(14);
+    background-color:$bgColor;
+    overflow:hidden;
+    overflow-y:auto;
+
+    .activity-520{
+        display: flex;
+        flex:1;
+
+        img{
+            width: 100%;
+            height: auto;
+            border-top-left-radius: px2rem(8);
+            border-top-right-radius: px2rem(8);
+
+        }
+
+    }
+    .activity-shoppingnow{
+        background-color: white;
+        margin-top:$marginSize;
+
+        img{
+            width:100%
+        }
+
+    }
+
+}

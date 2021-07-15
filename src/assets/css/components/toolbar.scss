@@ -1,0 +1,30 @@
+.tool-bar{
+    display: flex;
+    height: px2rem(46);
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 16px rgba($color: #000000, $alpha: 0.2);
+    border-top: 1px solid #e5e5e5;
+    &-item{
+        flex:1;
+
+        &-img{
+            display: block;
+            width: px2rem(22);
+            height: px2rem(22);
+            margin:0 auto;
+        }
+        &-text{
+            text-align: center;
+            font-size: $infoSize;
+            margin-top: px2rem(4);
+
+            &-h{
+                color:$buttonBgColor;
+            }
+
+        }
+
+    }
+
+}

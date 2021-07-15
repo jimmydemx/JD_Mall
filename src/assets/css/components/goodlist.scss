@@ -1,0 +1,19 @@
+.goods-list-page{
+     //width: 100%;
+    flex:1 0 100%;
+    background-color: $bgColor;
+    display: flex;
+    flex-direction: column;
+  
+    
+    &-content{
+       
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        overflow-y:scroll;
+        
+        
+    }
+
+}

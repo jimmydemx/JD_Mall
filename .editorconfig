@@ -1,5 +1,6 @@
+//可以帮助开发者在不同的编辑器和 IDE 之间定义和维护一致的代码风格。
 [*.{js,jsx,ts,tsx,vue}]
-indent_style = space
-indent_size = 2
+indent_style = space            // 采用空格缩进
+indent_size = 4                 // 采用四空格缩进
 trim_trailing_whitespace = true
 insert_final_newline = true

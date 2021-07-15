@@ -1,0 +1,17 @@
+// fontSize -> iphone 6,6s 7,9
+
+$rootFontSize: 375/10;
+
+//把像素转换为rem
+@function px2rem($px){ 
+    @return $px/$rootFontSize+rem;
+
+}
+
+$infoSize:px2rem(14);
+$titleSize: px2rem(16);
+$minfoSize:px2rem(12);
+$radiusSize:px2rem(6);
+$marginSize:px2rem(8);
+
+

@@ -1,0 +1,116 @@
+.goods-details{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    &-nav-left{
+        width:100%;
+        display: flex;
+
+        >img{
+            align-self: center;
+        }    
+    }
+    &-content{
+        overflow: hidden;
+        overflow-y: auto;
+        height: 100%;
+
+        &-desc{
+            width: 100%;
+            background-color: $bgColor;
+            box-shadow: 0 0 px2rem(16) 0 rgba($color: #000000, $alpha: 0.2);
+
+            &-item{
+                background-color: white;
+                padding: $marginSize;
+                margin-bottom: $marginSize;
+
+                &-price{
+                    font-size: px2rem(20);
+                    color:$mainColor;
+                    font-weight: 500;
+                }
+                &-name{
+                    margin-top:$marginSize;
+                    font-size:$titleSize;
+                    font-weight: 500;
+                    line-height: px2rem(20);
+                }
+                &-select{
+                    font-size: $infoSize;
+                    color:$hintColor;
+                    height:px2rem(44);
+                    display: flex;
+                    align-items: center;
+                    border-bottom:  px2rem(1) solid $lineColor;
+
+                    span{
+                        color: $textColor;
+                        font-size:$titleSize;
+                        font-weight: bold;
+                        margin-left:px2rem(4);
+                    }
+                }
+                &-support{
+                    margin-top: $marginSize;
+                
+                    &-list{
+                        display: flex;
+                        flex-wrap: wrap;
+
+                        &-item{
+                            display: flex;
+                            align-items: center;
+                            padding:px2rem(6) 0;
+                            margin-right: $marginSize;
+                            
+                            >img{
+                                width: px2rem(12);
+                                margin-right: px2rem(4);
+                            }
+                            >span{
+                                font-size: $minfoSize;
+                                color: $hintColor;
+                            }
+                        }
+                    }
+                }
+            }
+            &-detail{
+                >img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+
+        }
+
+    }
+
+    &-buy{
+        background-color: white;
+        border-top: px2rem(1) solid $lineColor;
+        height: px2rem(46);
+        line-height: px2rem(46);
+        text-align: right;
+
+        >div{
+            display: inline-block;
+            width:px2rem(100);
+            text-align: center;
+            font-size:$infoSize;
+            color:white;
+
+        }
+        &-add{
+            background-color: $mainColor;
+
+        }
+        &-now{
+            background-color: darkgoldenrod;
+
+        }
+    }
+
+}
